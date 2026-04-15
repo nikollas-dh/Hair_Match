@@ -1,15 +1,18 @@
-import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:hair_match/pages/cadastro.dart';
+import 'package:hair_match/pages/login.dart';
+import 'package:hair_match/pages/verificacao.dart';
 import 'package:nowa_runtime/nowa_runtime.dart';
-import 'package:hair_match/pages/home_page.dart';
 
 @NowaGenerated()
 final GoRouter appRouter = GoRouter(
-  initialLocation: '/home-page',
+  initialLocation: '/login',
   routes: [
+    GoRoute(path: '/cadastro', builder: (context, state) => const Cadastro()),
+    GoRoute(path: '/login', builder: (context, state) => const Login()),
     GoRoute(
-      path: '/home-page',
-      builder: (context, state) => const HomePage(),
+      path: '/verificacao',
+      builder: (context, state) => const Verificacao(),
     ),
   ],
 );
