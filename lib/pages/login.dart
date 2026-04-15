@@ -65,10 +65,10 @@ class _LoginState extends State<Login> {
             const Positioned(
               top: 472.0,
               left: 38.0,
-              width: 327.0,
-              height: 100.0,
+              width: 151.0,
+              height: 29.0,
               child: Text(
-                'Não tem uma conta?            Cadastre-se',
+                'Não tem uma conta?            ',
                 style: TextStyle(
                   fontSize: 15.0,
                   fontWeight: FontWeight.w600,
@@ -101,6 +101,19 @@ class _LoginState extends State<Login> {
                     fontFamily: 'Inria Sans',
                     fontWeight: FontWeight.w700,
                   ),
+                ),
+              ),
+            ),
+            const Positioned(
+              top: 472.0,
+              left: 260.0,
+              height: 29.0,
+              child: Text(
+                'Cadastre-se',
+                style: TextStyle(
+                  color: Color(0xFF4D6378),
+                  decoration: TextDecoration.underline,
+                  fontWeight: FontWeight.w600,
                 ),
               ),
             ),
