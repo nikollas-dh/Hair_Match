@@ -1,0 +1,12 @@
+{
+    "version": "3.7.0",
+    "app": {
+        "name": "hair_match",
+        "bundleId": "com.example.hairmatch"
+    },
+    "main": {},
+    "experimental": {
+        "load_packages": true
+    },
+    "permissions": []
+}
