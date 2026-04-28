@@ -3,6 +3,7 @@ import 'package:hair_match/pages/cadastro.dart';
 import 'package:hair_match/pages/login.dart';
 import 'package:hair_match/pages/verificacao.dart';
 import 'package:hair_match/pages/home.dart';
+import 'package:hair_match/pages/perfil.dart';
 import 'package:nowa_runtime/nowa_runtime.dart';
 
 @NowaGenerated()
@@ -16,5 +17,6 @@ final GoRouter appRouter = GoRouter(
       builder: (context, state) => const Verificacao(),
     ),
     GoRoute(path: '/home', builder: (context, state) => const Home()),
+    GoRoute(path: '/perfil', builder: (context, state) => const Perfil()),
   ],
 );
